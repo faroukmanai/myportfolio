@@ -1,0 +1,84 @@
+.header {
+    padding: 20px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+.header-text {
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+/* Column */
+.col-half {
+    flex: 1;
+    /* max-width: 50%; */
+}
+
+.badge {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+
+.sub-header {
+    font-size: 1.6em;
+    color: #aaa;
+    padding-top: 10px;
+}
+
+.header-h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Profile Picture */
+.profile-pic {
+    max-height:550px;
+    min-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+
+/* Media Queries */
+
+/* For tablets */
+@media (max-width: 768px) {
+    .sub-header {
+        font-size: 1em;
+        width: 100%;
+    }
+    .header-h1 {
+        font-size: 1.4em;
+    }
+    .profile-pic {
+        margin-top:20px;
+        max-height: 350px;
+    }
+    .row{
+        flex-direction: column;    
+    }
+    
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .sub-header {
+        font-size: 1em;
+    }
+    .header-h1 {
+        font-size: 1.8em;
+    }
+    .profile-pic {
+        max-height: 240px;
+    }
+}
