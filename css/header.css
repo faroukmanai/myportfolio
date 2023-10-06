@@ -1,23 +1,9 @@
 .header {
-    padding: 20px;
-}
-.container {
-    max-width: 1140px;
-    margin: auto;
-    padding: 0 15px;
-}
-.header-text {
-    text-align: center;
-}
-.row {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-}
-/* Column */
-.col-half {
-    flex: 1;
-    /* max-width: 50%; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin:50px 30px 30;
 }
 
 .badge {
@@ -42,15 +28,13 @@
 
 /* Profile Picture */
 .profile-pic {
-    max-height:550px;
+    max-height:450px;
     min-width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #ffffff;
 }
 
 /* Media Queries */
-
 /* For tablets */
 @media (max-width: 768px) {
     .sub-header {
@@ -64,10 +48,9 @@
         margin-top:20px;
         max-height: 350px;
     }
-    .row{
+    .header{
         flex-direction: column;    
-    }
-    
+    }   
 }
 
 /* For mobile phones */

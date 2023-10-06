@@ -20,21 +20,46 @@
             </ul>
         </nav>
         <header class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-half">
-                        <div class="header-text">
-                            <div class="badge">Développeur web</div>
-                            <div class="sub-header">Créateur de solutions web dynamiques</div>
-                            <h1 class="header-h1">Découvrez mon univers !</h1>
-                        </div>
-                    </div>
-                    <div class="col-half">
-                        <img class="profile-pic" src="assets/img/maphoto1.png" alt="photo farouk manai" />
-                    </div>
+            <div class="col-half">
+                <img class="profile-pic" src="./img/maphoto.png" alt="photo farouk manai" />
+            </div>
+            <div class="col-half">
+                <div class="header-text">
+                    <div class="badge">Développeur web</div>
+                    <div class="sub-header">Créateur de solutions web dynamiques</div>
+                    <h1 class="header-h1">Découvrez mon univers !</h1>
                 </div>
             </div>
         </header>
+        <svg viewbox="0 0 100 20">
+            <defs>
+              <linearGradient id="gradient">
+                <stop color="#000"/>
+              </linearGradient>
+              <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                  <animateTransform
+                      attributeName="transform"
+                      begin="0s"
+                      dur="4.5s"
+                      type="translate"
+                      from="0,0"
+                      to="40,0"
+                      repeatCount="indefinite" />
+                </path>
+              </pattern>
+            </defs>
+            <text text-anchor="middle" x="50" y="15" font-size="15" fill="white" fill-opacity="0.5">Dev.web. Dev.web</text>
+            <text text-anchor="middle" x="50" y="15" font-size="13" fill="url(#wave)"  fill-opacity="1">Dev.web. Dev.web</text>
+        </svg>
+        <div class="about">
+            <div>Je suis Farouk Manai, un développeur web passionné. Spécialisé dans la création de sites web et d'applications performants et conviviaux, j'ai travaillé sur une gamme variée de projets.</div>
+            <div>En tant que professionnel du développement web, je maîtrise une gamme complète de technologies clés. J'ai une solide expertise en HTML, CSS, Bootstrap, JavaScript et React pour le développement front-end. Côté back-end, je suis compétent en PHP avec ses frameworks populaires comme Laravel et Symfony. Cette combinaison me permet de créer des solutions web complètes qui sont à la fois belles et fonctionnelles.</div>
+            <div>Toujours en quête de nouveaux défis et d'opportunités pour grandir, j'aime constamment approfondir mes compétences et rester à jour avec les dernières technologies et meilleures pratiques dans le domaine du web. Mon objectif est de fournir des solutions web de qualité supérieure qui aident mes clients à atteindre leurs objectifs commerciaux et à construire le futur numérique.</div>
+        </div>
+        <div class="projects">
+            
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

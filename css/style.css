@@ -1,2 +1,10 @@
 @import "nav.css";
 @import "header.css";
+@import "svg.css";
+@import "about.css";
+@import "card.css";
+@import "projects.css";
+
+svg{
+    overflow: hidden;
+}

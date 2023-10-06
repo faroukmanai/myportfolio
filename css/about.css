@@ -1,0 +1,23 @@
+.about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    width: 80%;
+    margin: auto; 
+    padding-top: 80px;
+    font-size: 18px;
+    height: 50vh;
+}
+.about>div{
+    width: 320px;
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    
+}
