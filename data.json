@@ -4,27 +4,27 @@
         "subTitle": "HTML | CSS | JAVASCRIPT",
         "info": "L'objectif principal est d'offrir une expérience utilisateur immersive grâce à l'effet parallaxe en utilisant la bibliothèque GSAP et son plugin ScrollTrigger , tout en partageant des informations sur le thème de l'aventure.",
         "imgSrc": "./img/decouvrir.png",
-        "site": "https://www.google.com/"
-    },
-    {
-        "title": "Rolex",
-        "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
-        "info": "Le projet est une page web de vente de montres Rolex, où l'animation GSAP est utilisée pour créer une expérience utilisateur plus engageante. Les éléments de la page apparaissent de manière fluide, ajoutant une touche d'élégance et attirant l'attention sur les produits présentés.",
-        "imgSrc": "./img/rolex.png",
-        "site": "https://www.google.com/"
+        "site": "https://faroukmanai.github.io/parallaxeffect.github.io/"
     },
     {
         "title": "Portfolio",
         "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
         "info": "Ce projet est un portfolio en ligne pour une chargée de projet et scénographe d'exposition. Le site comporte une navigation simple avec des sections pour en savoir plus sur elle, voir ses projets et la contacter. Des animations GSAP sont intégrées pour améliorer l'expérience utilisateur",
         "imgSrc": "./img/portfolio-aicha.png",
-        "site": "https://www.google.com/"
+        "site": "https://aichaportfolio.faroukman.com/"
+    },
+    {
+        "title": "Rolex (in progress)",
+        "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
+        "info": "Le projet est une page web de vente de montres Rolex, où l'animation GSAP est utilisée pour créer une expérience utilisateur plus engageante. Les éléments de la page apparaissent de manière fluide, ajoutant une touche d'élégance et attirant l'attention sur les produits présentés.",
+        "imgSrc": "./img/rolex.png",
+        "site": "https://faroukmanai.github.io/rolex.github.io/"
     },
     {
         "title": "Facebook clone",
-        "subTitle": "React",
+        "subTitle": "React (voir git)",
         "info": "Ce projet est un clone de la page de profil Facebook, développé en React. Il utilise des composants pour créer une interface utilisateur modulaire et réutilisable. Le layout est séparé en plusieurs sections : Topbar, Sidebar, et Rightbar, chacun ayant son propre rôle dans l'interface. ",
         "imgSrc": "./img/facebook.png",
-        "site": "https://www.google.com/"
+        "site": "https://github.com/faroukmanai/socialapp/tree/main/src"
     }  
 ]
