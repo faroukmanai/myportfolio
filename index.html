@@ -14,11 +14,17 @@
     <div class="container">
         <nav>
             <ul>
-                <li><a href=""> À propos </a></li>
-                <li><a href=""> Projets </a></li>
-                <li><a href=""> Contact </a></li>
+                <li><a href="#about"> À propos </a></li>
+                <li><a href="#projects"> Projets </a></li>
+                <li><a href="#contact"> Contact </a></li>
             </ul>
         </nav>
+
+        <button class="switch-mode">
+            <svg class="sun" fill="none" stroke="#fbb046" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-sun" viewBox="0 0 24 24"><defs/><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            <svg class="moon" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-moon" viewBox="0 0 24 24"><defs/><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+
         <header class="header">
             <div class="col-half">
                 <img class="profile-pic" src="./img/maphoto.png" alt="photo farouk manai" />
@@ -31,36 +37,65 @@
                 </div>
             </div>
         </header>
-        <svg viewbox="0 0 100 20">
+        <svg class="liquid" viewbox="0 0 100 20">
             <defs>
+              <!-- Gradient for light mode -->
               <linearGradient id="gradient">
                 <stop color="#000"/>
               </linearGradient>
+              <!-- Gradient for dark mode -->
+              <linearGradient id="dark-gradient">
+                <stop color="white"/>
+              </linearGradient>
+              <!-- Wave pattern for light mode -->
               <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
-                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)">
                   <animateTransform
-                      attributeName="transform"
-                      begin="0s"
-                      dur="4.5s"
-                      type="translate"
-                      from="0,0"
-                      to="40,0"
-                      repeatCount="indefinite" />
+                    attributeName="transform"
+                    begin="0s"
+                    dur="2.5s"
+                    type="translate"
+                    from="0,0"
+                    to="40,0"
+                    repeatCount="indefinite" />
+                </path>
+              </pattern>
+              <!-- Wave pattern for dark mode -->
+              <pattern id="dark-wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+                <path id="dark-wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#dark-gradient)">
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="2.5s"
+                    type="translate"
+                    from="0,0"
+                    to="40,0"
+                    repeatCount="indefinite" />
                 </path>
               </pattern>
             </defs>
-            <text text-anchor="middle" x="50" y="15" font-size="15" fill="white" fill-opacity="0.5">Dev.web. Dev.web</text>
-            <text text-anchor="middle" x="50" y="15" font-size="13" fill="url(#wave)"  fill-opacity="1">Dev.web. Dev.web</text>
-        </svg>
-        <div class="about">
-            <div>Je suis Farouk Manai, un développeur web passionné. Spécialisé dans la création de sites web et d'applications performants et conviviaux, j'ai travaillé sur une gamme variée de projets.
+            <text id="svgText" text-anchor="middle" x="50" y="15" font-size="13" fill="url(#wave)" fill-opacity="1">Dev.web. Dev.web</text>
+          </svg>
+          
+        <div class="about" id="about">
+            <div>Je suis <b>Farouk Manai</b>, un développeur web passionné. Spécialisé dans la création de sites web et d'applications performants et conviviaux, j'ai travaillé sur une gamme variée de projets.
             En tant que professionnel du développement web, je maîtrise une gamme complète de technologies clés. J'ai une expertise en HTML, CSS, Bootstrap, JavaScript et React pour le développement front-end. Côté back-end, je suis compétent en PHP avec ses frameworks populaires comme Laravel et Symfony. </div>
             <div>Toujours en quête de nouveaux défis et d'opportunités pour grandir, j'aime constamment approfondir mes compétences et rester à jour avec les dernières technologies et meilleures pratiques dans le domaine du web. Mon objectif est de fournir des solutions web de qualité supérieure qui aident mes clients à atteindre leurs objectifs commerciaux et à construire le futur numérique.</div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">  
 
         </div>
+        <div class="banner">
+            <h1>Construisons quelque chose ensemble</h1>
+        </div>
+        <footer id="contact">
+            <div class="small">Copyright &copy; Farouk Manai 2023</div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/farouk-manai-012826245/" target="_blank" class="linkedin-icon"><img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=000" width="32" height="32"></a>
+                <a href="https://github.com/faroukmanai" target="_blank" class="github-icon"><img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32"></a>
+            </div>
+        </footer>        
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"> </script>
 </body>
 </html>
