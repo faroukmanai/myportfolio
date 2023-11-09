@@ -65,6 +65,8 @@
         flex-direction: column;
         width:100%;
         position: static;
+        font-size: 8px;
+        
     }
     .card-body{
         position:static;
@@ -73,6 +75,7 @@
         color:black;
         padding: 10px 20px;
         transition:0;
+        
     }
     .card .button{
         background-color: rgb(50, 50, 50);
