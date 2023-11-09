@@ -26,6 +26,15 @@ TweenMax.from("svg",2, {
     x:80,
     ease: Expo.easeInOut
 })
+anime({
+    targets: '.line-drawing-demo .lines path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function(el, i) { return i * 250 },
+    direction: 'alternate',
+    loop: true
+  });
 
 document.addEventListener("DOMContentLoaded", function() {
 
