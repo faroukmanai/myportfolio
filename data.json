@@ -1,11 +1,5 @@
 [
-    {
-        "title": "Aventure",
-        "subTitle": "HTML | CSS | JAVASCRIPT",
-        "info": "L'objectif principal est d'offrir une expérience utilisateur immersive grâce à l'effet parallaxe en utilisant la bibliothèque GSAP et son plugin ScrollTrigger , tout en partageant des informations sur le thème de l'aventure.",
-        "imgSrc": "./img/decouvrir.png",
-        "site": "https://faroukmanai.github.io/parallaxeffect.github.io/"
-    },
+    
     {
         "title": "Portfolio",
         "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
@@ -26,5 +20,12 @@
         "info": "Ce projet est un clone de la page de profil Facebook, développé en React. Il utilise des composants pour créer une interface utilisateur modulaire et réutilisable. Le layout est séparé en plusieurs sections : Topbar, Sidebar, et Rightbar, chacun ayant son propre rôle dans l'interface. ",
         "imgSrc": "./img/facebook.png",
         "site": "https://github.com/faroukmanai/socialapp/tree/main/src"
-    }  
+    },
+    {
+        "title": "Aventure",
+        "subTitle": "HTML | CSS | JAVASCRIPT",
+        "info": "L'objectif principal est d'offrir une expérience utilisateur immersive grâce à l'effet parallaxe en utilisant la bibliothèque GSAP et son plugin ScrollTrigger , tout en partageant des informations sur le thème de l'aventure.",
+        "imgSrc": "./img/decouvrir.png",
+        "site": "https://faroukmanai.github.io/parallaxeffect.github.io/"
+    } 
 ]
