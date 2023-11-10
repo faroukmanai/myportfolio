@@ -1,13 +1,18 @@
 nav{
-    width: 100%;
+    max-width: 100%;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
+    /* padding:30px 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
 }
 nav ul{
     padding:0;
     display: flex;
     justify-content: center;
-    gap:50px;
+    gap:40px;
     
 }
 nav ul li{
@@ -31,5 +36,10 @@ nav ul li a::after{
 
 nav ul li a:hover::after{
     width: 100%;
+}
+
+nav .logo{
+    font-family:monospace;
+    font-weight: bold;
 }
 
