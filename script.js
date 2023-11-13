@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <small class="card-sub-title">${item.subTitle}</small>
                             </div>
                             <p class="card-info">${item.info}</p>
-                            <a href="${item.site}" class="button" target="_blank">Visitez le site</a>
+                            <a href="${item.site}" class="button" target="_blank">${item.btn}</a>
                         </div>
                     </div>
                 `;

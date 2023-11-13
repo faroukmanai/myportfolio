@@ -1,18 +1,28 @@
 [
     
     {
-        "title": "Portfolio",
+        "title": "Portfolio - SCÉNOGRAPHE D'EXPOSITION",
         "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
         "info": "Ce projet est un portfolio en ligne pour une chargée de projet et scénographe d'exposition. Le site comporte une navigation simple avec des sections pour en savoir plus sur elle, voir ses projets et la contacter. Des animations GSAP sont intégrées pour améliorer l'expérience utilisateur",
         "imgSrc": "./img/portfolio-aicha.png",
-        "site": "https://aichaportfolio.faroukman.com/"
+        "site": "https://aichaportfolio.faroukman.com/",
+        "btn": "Voir le site"
     },
     {
-        "title": "Portfolio",
-        "subTitle": "HTML | CSS | JAVASCRIPT | GSAP",
-        "info": "Ce projet est un portfolio en ligne pour une chargée de projet et scénographe d'exposition. Le site comporte une navigation simple avec des sections pour en savoir plus sur elle, voir ses projets et la contacter. Des animations GSAP sont intégrées pour améliorer l'expérience utilisateur",
-        "imgSrc": "./img/portfolio-aicha.png",
-        "site": "https://aichaportfolio.faroukman.com/"
+        "title": "Vino",
+        "subTitle": "LARAVEL | JAVASCRIPT | CSS | SQL",
+        "info": " Cette application permet aux utilisateurs de gérer leur collection de bouteilles de vin dans leur cellier.l'application intègre un web scraper pour collecter les informations sur les bouteilles de vin directement du site SAQ, fournissant ainsi des données à jour sur les prix et la disponibilité.(Projet au Cégep)",
+        "imgSrc": "./img/1.png",
+        "site": "https://github.com/Vino-FMM/projetWeb2",
+        "btn": "Voir Git"
+    },
+    {
+        "title": "STAMPEE",
+        "subTitle": "TWIG  | CSS | JAVASCRIPT | PHP | SQL",
+        "info": "Ce site représente une plateforme conçue pour les amateurs de timbres. Il intégre des fonctionnalités de filtrage et de recherche, permettant aux utilisateurs de trouver et miser sur des timbres. Il inclut une gestion des utilisateurs, avec des fonctionnalités de connexion et de déconnexion.(Projet au Cégep)",
+        "imgSrc": "./img/stampee.png",
+        "site": "https://github.com/faroukmanai/stampee-projet",
+        "btn": "Voir Git"
     }
 ]
 

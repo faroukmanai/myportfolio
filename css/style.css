@@ -59,6 +59,9 @@ svg{
   body.dark .social-icons a img {
     filter: invert(1);
   }
+  #about{
+    display: none;
+  }
   
     
   
