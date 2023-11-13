@@ -52,7 +52,9 @@
 
 /* For mobile phones */
 @media (max-width: 480px) {
-    
+    .header{
+        padding: 15px;
+    }
     .sub-header {
         font-size: 1em;
     }

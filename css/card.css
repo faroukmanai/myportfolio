@@ -12,13 +12,12 @@
     height:370px;
 }
 .card-body{
-    background: #f3f3f3;
-    color:black;
-    padding: 25px 20px;   
+    padding-top: 25px ; 
+    padding-bottom: 25px;  
 }
 .card-body:hover{
-    background-color: #ffffff;
     transition: 0.4s;
+    
 }
 .card-body>div{
     display: flex;
@@ -40,32 +39,31 @@
     line-height: 25px;
 }
 .card .button{
-    padding:6px 8px;
-    background-color: white;
-    color:black;
+    color: black;
+    padding-top:8px;
+    padding-bottom:8px;
     text-decoration: none;
     width:max-content;
-    border-radius: 10px;
     font-size: 14px;
     cursor: pointer;
 }
-
+.dark .card .button{
+    color:white;
+}
 @media (max-width: 480px) {
+    .projets{
+        gap:20px;
+    }
     .card{
         display: flex;
         flex-direction: column;
-        width:100%;
-        font-size: 8px;    
+        width:100%; 
+        padding: 15px;     
     }
     .card-body{
-        background: #f6f6f6;
-        color:black;
-        padding: 10px 20px;
-        
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size: 8px; 
     }
-    .card .button{
-        background-color: rgb(50, 50, 50);
-        color:rgb(255, 255, 255); 
-        outline: 1px solid rgb(0, 0, 0);
-    }
+   
 }
