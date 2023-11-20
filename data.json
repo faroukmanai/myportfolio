@@ -23,6 +23,14 @@
         "imgSrc": "./img/stampee.png",
         "site": "https://github.com/faroukmanai/stampee-projet",
         "btn": "Voir Git"
+    },
+    {
+        "title": "Hover Effect",
+        "subTitle": "RapidApi  | CSS | JAVASCRIPT ",
+        "info": "Ce projet est un site web interactif dédié aux films. Utilisant HTML, CSS et JavaScript, il affiche des cartes de films stylisées, dont les données sont récupérées via une API IMDB. Chaque carte réagit dynamiquement au mouvement de la souris, créant un effet visuel captivant. Cet effet est réalisé en ajustant les propriétés de transformation CSS des cartes en fonction de la position de la souris, offrant une expérience utilisateur immersive et visuellement attrayante.",
+        "imgSrc": "./img/rapidapi.png",
+        "site": "https://moviesapi.faroukman.com/",
+        "btn": "Voir le site"
     }
 ]
 
